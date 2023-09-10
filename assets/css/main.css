@@ -3890,7 +3890,7 @@ input, select, textarea {
 		max-height: 400px;
 		overflow: hidden; }
 	  div#comparison figure { 
-		background-image: url(../../images/before1.jpg); 
+		background-image: url(../../images/after1.jpg); 
 		background-size: cover;
 		position: relative;
 		font-size: 0;
@@ -3903,7 +3903,7 @@ input, select, textarea {
 		width: 100%;
 	  }
 	  div#comparison figure div { 
-		background-image: url(../../images/after1.jpg);
+		background-image: url(../../images/before1.jpg);
 		background-size: cover;
 		position: relative;
 		width: 50%; 
