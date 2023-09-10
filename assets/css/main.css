@@ -3949,13 +3949,13 @@ input, select, textarea {
 		-moz-appearance: none;
 		width: 20px;
 		height: 15px;
-		background: #fff;
+		background: #e73838;
 		border-radius: 0;
 		   }   
 	  input[type=range]:focus::-webkit-slider-thumb {
-		  background: rgba(255,255,255,0.5);
+		  background: rgba(241, 78, 78, 0.5);
 		 }
 	  input[type=range]:focus::-moz-range-thumb {
-		  background: rgba(255,255,255,0.5);
+		  background: rgba(241, 78, 78, 0.5);
 		 }
 	  
