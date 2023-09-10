@@ -3942,7 +3942,7 @@ input, select, textarea {
 	  input[type=range]::-webkit-slider-thumb {
 		  -webkit-appearance:none;
 		  width: 20px; height: 15px;   
-		  background: #fff;
+		  background: #cc3535;
 		  border-radius: 0;
 		 }
 	  input[type=range]::-moz-range-thumb {
