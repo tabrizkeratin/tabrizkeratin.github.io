@@ -4,13 +4,14 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-(function($) {
-
-	var divisor = document.getElementById("divisor"),
+var divisor = document.getElementById("divisor"),
 	slider = document.getElementById("slider");
 	function moveDivisor() { 
 	divisor.style.width = slider.value+"%";
 	}
+
+(function($) {
+
 
 	var	$window = $(window),
 		$body = $('body');
