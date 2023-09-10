@@ -6,6 +6,12 @@
 
 (function($) {
 
+	var divisor = document.getElementById("divisor"),
+	slider = document.getElementById("slider");
+	function moveDivisor() { 
+	divisor.style.width = slider.value+"%";
+	}
+
 	var	$window = $(window),
 		$body = $('body');
 
@@ -207,8 +213,3 @@
 
 })(jQuery);
 
-var divisor = document.getElementById("divisor"),
-slider = document.getElementById("slider");
-function moveDivisor() { 
-	divisor.style.width = slider.value+"%";
-}
